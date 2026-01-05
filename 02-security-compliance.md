@@ -87,7 +87,7 @@ Vanta is a compliance automation platform that continuously monitors security co
 | Management | Native Azure integration | Vendor-specific management console |
 | Vendor Lock-in | Azure-native | Vendor-specific (but portable) |
 
-**Decision: Azure Firewall** selected for native Azure integration, cost efficiency, and sufficient security capabilities for current requirements.
+**Decision: Azure Firewall** selected for native Azure integration, cost efficiency, and sufficient security capabilities for current requirements. This choice reduces operational complexity (no separate vendor management console, unified Azure management) and minimizes vendor dependency (native Azure service vs third-party NVA licensing and support).
 
 ### 3.3 NSG vs Azure Firewall
 
